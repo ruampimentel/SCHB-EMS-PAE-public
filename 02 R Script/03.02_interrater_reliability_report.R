@@ -28,8 +28,6 @@ icc_SCHB <- kline_55 %>% icc_focused(var_name = "SCHB", starts_with("SCHB"))
 icc_EMS <- kline_55 %>% icc_focused(var_name = "EMS", starts_with("EMS")) 
 icc_PAE <- kline_55 %>% icc_focused(var_name = "PAE", starts_with("PAE")) 
 
-
-
 # Merge ICCs -----------------
 # Organized by ICC size
 icc_report <- icc_SCHB %>% 
